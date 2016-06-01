@@ -5,6 +5,22 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football", "Football\Football.csproj", "{809C2E44-7FBF-4487-9012-44A04266EAC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Football.ViewModels", "Football.ViewModels", "{A417EDD6-B9DD-4694-A7CC-C6925841F752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.ViewModels", "Football.ViewModels\Football.ViewModels.csproj", "{82B08B77-C2FF-4965-BB9B-A629D40F599F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Football.DTOmodels", "Football.DTOmodels", "{634B181A-D4F3-4B49-9A01-567CD82E4997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.DTOmodels", "Football.DTOmodels\Football.DTOmodels.csproj", "{BF0C09E6-F884-4C22-88DF-CD9E3030F18A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Football.ServiceMapper", "Football.ServiceMapper", "{522340FD-1E9B-4CE1-BE41-F5D2BFEA3F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.ServiceMapper", "Football.ServiceMapper\Football.ServiceMapper.csproj", "{450CBBAD-FB93-49AE-9D26-A9310D2B9F89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Football.Interfaces", "Football.Interfaces", "{BEFF972F-57A1-4979-8E41-87E86C3DB992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.Interfaces", "Football.Interfaces\Football.Interfaces.csproj", "{77994D6B-877F-4FBE-AF8F-45AF7B86E076}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +31,30 @@ Global
 		{809C2E44-7FBF-4487-9012-44A04266EAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{809C2E44-7FBF-4487-9012-44A04266EAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{809C2E44-7FBF-4487-9012-44A04266EAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B08B77-C2FF-4965-BB9B-A629D40F599F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B08B77-C2FF-4965-BB9B-A629D40F599F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B08B77-C2FF-4965-BB9B-A629D40F599F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B08B77-C2FF-4965-BB9B-A629D40F599F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0C09E6-F884-4C22-88DF-CD9E3030F18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0C09E6-F884-4C22-88DF-CD9E3030F18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0C09E6-F884-4C22-88DF-CD9E3030F18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0C09E6-F884-4C22-88DF-CD9E3030F18A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450CBBAD-FB93-49AE-9D26-A9310D2B9F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450CBBAD-FB93-49AE-9D26-A9310D2B9F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450CBBAD-FB93-49AE-9D26-A9310D2B9F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450CBBAD-FB93-49AE-9D26-A9310D2B9F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77994D6B-877F-4FBE-AF8F-45AF7B86E076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77994D6B-877F-4FBE-AF8F-45AF7B86E076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77994D6B-877F-4FBE-AF8F-45AF7B86E076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77994D6B-877F-4FBE-AF8F-45AF7B86E076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82B08B77-C2FF-4965-BB9B-A629D40F599F} = {A417EDD6-B9DD-4694-A7CC-C6925841F752}
+		{BF0C09E6-F884-4C22-88DF-CD9E3030F18A} = {634B181A-D4F3-4B49-9A01-567CD82E4997}
+		{450CBBAD-FB93-49AE-9D26-A9310D2B9F89} = {522340FD-1E9B-4CE1-BE41-F5D2BFEA3F71}
+		{77994D6B-877F-4FBE-AF8F-45AF7B86E076} = {BEFF972F-57A1-4979-8E41-87E86C3DB992}
 	EndGlobalSection
 EndGlobal

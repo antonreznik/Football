@@ -1,0 +1,17 @@
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Football.Interfaces.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Football.Interfaces.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Football.DTOmodels.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Football.ViewModels.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Glass.Mapper.Sc.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Glass.Mapper.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Castle.Core.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Football.DTOmodels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Football.ViewModels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Glass.Mapper.Sc.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Glass.Mapper.Sc.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Glass.Mapper.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Glass.Mapper.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\bin\Debug\Castle.Core.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\obj\Debug\Football.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\obj\Debug\Football.Interfaces.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.Interfaces\obj\Debug\Football.Interfaces.pdb

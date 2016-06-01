@@ -9,6 +9,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>http://Football/</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.CodeFirst.config.exclude">
+      <publishTime>06/01/2016 14:20:58</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.config">
+      <publishTime>06/01/2016 14:20:58</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.Start.config">
+      <publishTime>06/01/2016 14:23:57</publishTime>
+    </File>
     <File Include="App_Config/Include/Rainbow.config">
       <publishTime>05/31/2016 16:31:57</publishTime>
     </File>
@@ -48,26 +57,74 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Unicorn/Unicorn.UI.config">
       <publishTime>05/31/2016 16:31:59</publishTime>
     </File>
+    <File Include="App_Config/Include/z.Glass.Mapper.Sc.ViewRender.config.exclude">
+      <publishTime>06/01/2016 14:20:58</publishTime>
+    </File>
+    <File Include="bin/Castle.Core.dll">
+      <publishTime>01/06/2016 11:36:21</publishTime>
+    </File>
     <File Include="bin/ComponentArt.Web.UI.dll">
-      <publishTime>03/02/2016 17:17:58</publishTime>
+      <publishTime>02/03/2016 17:17:58</publishTime>
     </File>
     <File Include="bin/Football.dll">
-      <publishTime>05/31/2016 16:36:29</publishTime>
+      <publishTime>06/01/2016 14:24:32</publishTime>
+    </File>
+    <File Include="bin/Football.DTOmodels.dll">
+      <publishTime>06/01/2016 14:24:27</publishTime>
+    </File>
+    <File Include="bin/Football.DTOmodels.pdb">
+      <publishTime>06/01/2016 14:24:27</publishTime>
+    </File>
+    <File Include="bin/Football.Interfaces.dll">
+      <publishTime>06/01/2016 14:24:27</publishTime>
+    </File>
+    <File Include="bin/Football.Interfaces.pdb">
+      <publishTime>06/01/2016 14:24:27</publishTime>
     </File>
     <File Include="bin/Football.pdb">
-      <publishTime>05/31/2016 16:36:29</publishTime>
+      <publishTime>06/01/2016 14:24:32</publishTime>
+    </File>
+    <File Include="bin/Football.ServiceMapper.dll">
+      <publishTime>06/01/2016 14:24:28</publishTime>
+    </File>
+    <File Include="bin/Football.ServiceMapper.pdb">
+      <publishTime>06/01/2016 14:24:28</publishTime>
+    </File>
+    <File Include="bin/Football.ViewModels.dll">
+      <publishTime>06/01/2016 14:24:27</publishTime>
+    </File>
+    <File Include="bin/Football.ViewModels.pdb">
+      <publishTime>06/01/2016 14:24:27</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.dll">
+      <publishTime>01/06/2016 11:36:23</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.pdb">
+      <publishTime>01/06/2016 11:36:23</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.dll">
+      <publishTime>01/06/2016 11:36:23</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.Mvc.dll">
+      <publishTime>06/01/2016 11:36:23</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.Mvc.pdb">
+      <publishTime>06/01/2016 11:36:23</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.pdb">
+      <publishTime>01/06/2016 11:36:23</publishTime>
     </File>
     <File Include="bin/HtmlAgilityPack.dll">
-      <publishTime>03/02/2016 17:19:46</publishTime>
+      <publishTime>02/03/2016 17:19:46</publishTime>
     </File>
     <File Include="bin/ITHit.WebDAV.Server.dll">
-      <publishTime>03/02/2016 17:19:46</publishTime>
+      <publishTime>02/03/2016 17:19:46</publishTime>
     </File>
     <File Include="bin/Kamsar.WebConsole.dll">
       <publishTime>05/31/2016 16:31:54</publishTime>
     </File>
     <File Include="bin/Lucene.Net.dll">
-      <publishTime>03/02/2016 17:19:54</publishTime>
+      <publishTime>02/03/2016 17:19:54</publishTime>
     </File>
     <File Include="bin/MicroCHAP.dll">
       <publishTime>05/31/2016 16:31:55</publishTime>
@@ -79,13 +136,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:01:36</publishTime>
     </File>
     <File Include="bin/Mvp.Xml.dll">
-      <publishTime>03/02/2016 17:19:56</publishTime>
+      <publishTime>02/03/2016 17:19:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>03/02/2016 17:19:56</publishTime>
+      <publishTime>02/03/2016 17:19:56</publishTime>
     </File>
     <File Include="bin/RadEditor.Net2.dll">
-      <publishTime>03/02/2016 17:19:58</publishTime>
+      <publishTime>02/03/2016 17:19:58</publishTime>
     </File>
     <File Include="bin/Rainbow.dll">
       <publishTime>05/31/2016 16:31:56</publishTime>
@@ -133,16 +190,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:01:37</publishTime>
     </File>
     <File Include="bin/Sitecore.Logging.Client.dll">
-      <publishTime>03/02/2016 17:20:24</publishTime>
+      <publishTime>02/03/2016 17:20:24</publishTime>
     </File>
     <File Include="bin/Sitecore.Logging.dll">
-      <publishTime>03/02/2016 17:20:24</publishTime>
+      <publishTime>02/03/2016 17:20:24</publishTime>
     </File>
     <File Include="bin/Sitecore.NVelocity.dll">
-      <publishTime>03/02/2016 17:20:30</publishTime>
+      <publishTime>02/03/2016 17:20:30</publishTime>
     </File>
     <File Include="bin/Sitecore.Zip.dll">
-      <publishTime>03/02/2016 17:20:56</publishTime>
+      <publishTime>02/03/2016 17:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>05/31/2016 16:01:36</publishTime>
@@ -163,7 +220,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:01:36</publishTime>
     </File>
     <File Include="bin/Telerik.Web.UI.dll">
-      <publishTime>03/02/2016 17:21:12</publishTime>
+      <publishTime>02/03/2016 17:21:12</publishTime>
     </File>
     <File Include="bin/Unicorn.dll">
       <publishTime>05/31/2016 16:31:58</publishTime>
@@ -172,13 +229,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:03:01</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>05/31/2016 16:31:59</publishTime>
+      <publishTime>06/01/2016 14:20:58</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/06/2016 13:37:47</publishTime>
+    </File>
+    <File Include="Views/MainLayout.cshtml">
+      <publishTime>06/01/2016 11:16:53</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>05/31/2016 16:05:59</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/31/2016 16:36:33</publishTime>
+      <publishTime>06/01/2016 14:24:50</publishTime>
     </File>
   </ItemGroup>
 </Project>

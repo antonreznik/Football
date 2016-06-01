@@ -1,0 +1,12 @@
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Football.DTOmodels.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Football.DTOmodels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Castle.Core.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Glass.Mapper.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Glass.Mapper.Sc.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Castle.Core.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Glass.Mapper.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Glass.Mapper.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Glass.Mapper.Sc.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Glass.Mapper.Sc.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\obj\Debug\Football.DTOmodels.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\obj\Debug\Football.DTOmodels.pdb

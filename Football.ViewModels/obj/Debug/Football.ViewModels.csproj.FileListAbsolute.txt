@@ -1,0 +1,4 @@
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Football.ViewModels.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Football.ViewModels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\obj\Debug\Football.ViewModels.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\obj\Debug\Football.ViewModels.pdb
