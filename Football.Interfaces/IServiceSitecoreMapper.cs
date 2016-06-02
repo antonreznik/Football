@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Football.Interfaces
 {
-    public interface IServiceMapper<T>
+    public interface IServiceSitecoreMapper<T>
     {
-        HomePageViewModel GetHomePageViewModel(T itemPath);
+        HeaderViewModel GetHeaderViewModel(T itemPath);
     }
 }

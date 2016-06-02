@@ -17,3 +17,5 @@ C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\obj\Debug\Football.ServiceMapper.csprojResolveAssemblyReference.cache
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\obj\Debug\Football.ServiceMapper.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\obj\Debug\Football.ServiceMapper.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\AutoMapper.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\AutoMapper.xml

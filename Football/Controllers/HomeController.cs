@@ -11,18 +11,16 @@ namespace Football.Controllers
 {
     public class HomeController : Controller
     {
-        private IServiceMapper<string> _serviceMapper;
-
-
+        private IServiceSitecoreMapper<string> _serviceMapper;
 
         public HomeController()
         {
             _serviceMapper = new SitecoreGlassMapper();
         }
 
-        public ActionResult Index()
+        public ActionResult GetHeader()
         {
-            return View(_serviceMapper.GetHomePageViewModel(Sitecore.Context.Item.Paths.Path));
+            return View(_serviceMapper.GetHeaderViewModel(Sitecore.Context.Item.Paths.Path));
         }
     }
 }

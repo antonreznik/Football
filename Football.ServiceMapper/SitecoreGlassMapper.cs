@@ -8,18 +8,25 @@ using System.Threading.Tasks;
 using Football.ViewModels;
 using Glass.Mapper.Sc;
 using Football.DTOmodels;
+using AutoMapper;
+using Football.ServiceMapper.AutoMapper;
 
 namespace Football.ServiceMapper
 {
-    public class SitecoreGlassMapper : IServiceMapper<string>
+    public class SitecoreGlassMapper : IServiceSitecoreMapper<string>
     {
-        public HomePageViewModel GetHomePageViewModel(string itemPath)
+        private IMapper _mapper;
+        public SitecoreGlassMapper()
+        {
+            _mapper = AutoMapperConfig.CreateAutoMapper();
+        }
+
+        public HeaderViewModel GetHeaderViewModel(string itemPath)
         {
             SitecoreContext service = new SitecoreContext();
-            var DTOmodel = service.GetItem<HomePageDTOmodel>(itemPath);
-
-
-            return service.GetItem<HomePageViewModel>(itemPath);          
+            var DTOmodel = service.GetItem<HeaderDTOmodel>(itemPath);
+      
+            return _mapper.Map<HeaderViewModel>(DTOmodel);          
         }
     }
 }

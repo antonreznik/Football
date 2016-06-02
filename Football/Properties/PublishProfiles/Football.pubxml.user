@@ -60,6 +60,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/z.Glass.Mapper.Sc.ViewRender.config.exclude">
       <publishTime>06/01/2016 14:20:58</publishTime>
     </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>01/06/2016 15:07:17</publishTime>
+    </File>
     <File Include="bin/Castle.Core.dll">
       <publishTime>01/06/2016 11:36:21</publishTime>
     </File>
@@ -67,34 +70,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2016 17:17:58</publishTime>
     </File>
     <File Include="bin/Football.dll">
-      <publishTime>06/01/2016 14:24:32</publishTime>
+      <publishTime>06/02/2016 11:07:06</publishTime>
     </File>
     <File Include="bin/Football.DTOmodels.dll">
-      <publishTime>06/01/2016 14:24:27</publishTime>
+      <publishTime>06/02/2016 11:07:01</publishTime>
     </File>
     <File Include="bin/Football.DTOmodels.pdb">
-      <publishTime>06/01/2016 14:24:27</publishTime>
+      <publishTime>06/02/2016 11:07:01</publishTime>
     </File>
     <File Include="bin/Football.Interfaces.dll">
-      <publishTime>06/01/2016 14:24:27</publishTime>
+      <publishTime>06/02/2016 11:07:01</publishTime>
     </File>
     <File Include="bin/Football.Interfaces.pdb">
-      <publishTime>06/01/2016 14:24:27</publishTime>
+      <publishTime>06/02/2016 11:07:01</publishTime>
     </File>
     <File Include="bin/Football.pdb">
-      <publishTime>06/01/2016 14:24:32</publishTime>
+      <publishTime>06/02/2016 11:07:06</publishTime>
     </File>
     <File Include="bin/Football.ServiceMapper.dll">
-      <publishTime>06/01/2016 14:24:28</publishTime>
+      <publishTime>06/02/2016 11:07:02</publishTime>
     </File>
     <File Include="bin/Football.ServiceMapper.pdb">
-      <publishTime>06/01/2016 14:24:28</publishTime>
+      <publishTime>06/02/2016 11:07:02</publishTime>
     </File>
     <File Include="bin/Football.ViewModels.dll">
-      <publishTime>06/01/2016 14:24:27</publishTime>
+      <publishTime>06/02/2016 11:07:01</publishTime>
     </File>
     <File Include="bin/Football.ViewModels.pdb">
-      <publishTime>06/01/2016 14:24:27</publishTime>
+      <publishTime>06/02/2016 11:07:01</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.dll">
       <publishTime>01/06/2016 11:36:23</publishTime>
@@ -225,14 +228,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Unicorn.dll">
       <publishTime>05/31/2016 16:31:58</publishTime>
     </File>
+    <File Include="Content/css/main.css">
+      <publishTime>06/02/2016 10:31:54</publishTime>
+    </File>
     <File Include="Global.asax">
       <publishTime>05/31/2016 16:03:01</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>06/01/2016 14:20:58</publishTime>
     </File>
+    <File Include="Views/Home/GetHeader.cshtml">
+      <publishTime>06/02/2016 11:06:51</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/06/2016 13:37:47</publishTime>
+      <publishTime>02/06/2016 10:20:38</publishTime>
     </File>
     <File Include="Views/MainLayout.cshtml">
       <publishTime>06/01/2016 11:16:53</publishTime>
@@ -241,7 +250,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:05:59</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/01/2016 14:24:50</publishTime>
+      <publishTime>06/02/2016 11:07:23</publishTime>
     </File>
   </ItemGroup>
 </Project>

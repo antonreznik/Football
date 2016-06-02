@@ -72,3 +72,5 @@ C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football\obj\Debug\Footbal
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football\bin\Glass.Mapper.Sc.Mvc.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football\bin\Glass.Mapper.Sc.Mvc.pdb
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football\bin\Glass.Mapper.Sc.Mvc.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football\bin\AutoMapper.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football\bin\AutoMapper.xml
