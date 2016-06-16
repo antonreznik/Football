@@ -1,5 +1,6 @@
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Football.ServiceMapper.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Football.ServiceMapper.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\AutoMapper.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Castle.Core.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Football.DTOmodels.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Football.Interfaces.dll
@@ -9,6 +10,7 @@ C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Football.DTOmodels.pdb
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Football.Interfaces.pdb
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Football.ViewModels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\AutoMapper.xml
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Castle.Core.xml
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Glass.Mapper.pdb
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\Glass.Mapper.xml
@@ -17,5 +19,3 @@ C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\obj\Debug\Football.ServiceMapper.csprojResolveAssemblyReference.cache
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\obj\Debug\Football.ServiceMapper.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\obj\Debug\Football.ServiceMapper.pdb
-C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\AutoMapper.dll
-C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ServiceMapper\bin\Debug\AutoMapper.xml

@@ -1,4 +1,5 @@
-﻿using Football.ViewModels;
+﻿using Football.DTOmodels;
+using Football.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace Football.Interfaces
 {
     public interface IServiceSitecoreMapper<T>
     {
-        HeaderViewModel GetHeaderViewModel(T itemPath);
+        HeaderViewModel GetHeaderViewModel(T itemGuid);
+        HeaderDTOmodel GetHeaderDTOModel(T itemGuid);
+        BodyContentDTOmodel GetBodyContentDTOModel(T itemGuid);
     }
 }

@@ -1,5 +1,7 @@
 ﻿using Football.Interfaces;
 using Football.ServiceMapper;
+using Glass.Mapper.Sc.Web.Mvc;
+using Sitecore.Data;
 using Sitecore.Data.Items;
 using System;
 using System.Collections.Generic;
@@ -11,7 +13,7 @@ namespace Football.Controllers
 {
     public class HomeController : Controller
     {
-        private IServiceSitecoreMapper<string> _serviceMapper;
+        private IServiceSitecoreMapper<Guid> _serviceMapper;
 
         public HomeController()
         {
@@ -20,7 +22,23 @@ namespace Football.Controllers
 
         public ActionResult GetHeader()
         {
-            return View(_serviceMapper.GetHeaderViewModel(Sitecore.Context.Item.Paths.Path));
+            //var str = Sitecore.Context.Site.Properties["glassContext"];
+            Guid sourceItemGuid;
+            if(!Guid.TryParse(Sitecore.Mvc.Presentation.RenderingContext.Current.Rendering.DataSource, out sourceItemGuid))
+            {
+                sourceItemGuid = Sitecore.Context.Item.ID.Guid;
+            }
+            //var x = _serviceMapper.GetHeaderViewModel(sourceItemGuid);
+            var y = _serviceMapper.GetHeaderDTOModel(sourceItemGuid);
+            //return View(_serviceMapper.GetHeaderViewModel(sourceItemGuid));
+            return View(y);
+        }
+
+        public ActionResult GetPageContent()
+        {
+            var model = _serviceMapper.GetBodyContentDTOModel(Sitecore.Context.Item.ID.Guid);
+
+            return View(model);
         }
     }
 }

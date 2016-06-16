@@ -25,16 +25,22 @@ namespace Football.ServiceMapper.AutoMapper
                     cfg.CreateMap<HeaderDTOmodel, HeaderViewModel>()
                         .ForMember(c => c.HeaderLogoSrc, d => d.MapFrom(x => x.HeaderLogo.Src))
                         .ForMember(c => c.HeaderLogoAlt, d => d.MapFrom(x => x.HeaderLogo.Alt))
-
                         .ForMember(c => c.HeaderBookmakerLogoSrc, d => d.MapFrom(x => x.HeaderBookmakerLogo.Src))
                         .ForMember(c => c.HeaderBookmakerLogoAlt, d => d.MapFrom(x => x.HeaderBookmakerLogo.Alt));
+                        //.ForMember(c => c.MenuItems, d => d.MapFrom(x => x.MenuItems.ElementAt(0).HeaderItems));
+
+                    cfg.CreateMap<HeaderMenuDTOmodel, HeaderMenuViewModel>();
+                    cfg.CreateMap<MenuItemDTOmodel, HeaderMenuItemViewModel>();
+
+                    cfg.CreateMap<BodyContentDTOmodel, BodyContentViewModel>();
+                    cfg.CreateMap<LeftMenuDTOmodel, LeftMenuViewModel>();
                 }
             );
         }
 
         public static IMapper CreateAutoMapper()
         {
-           return _config.CreateMapper();
+            return _config.CreateMapper();
         }
     }
 }

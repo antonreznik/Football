@@ -10,3 +10,4 @@ C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Deb
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\bin\Debug\Glass.Mapper.Sc.xml
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\obj\Debug\Football.DTOmodels.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\obj\Debug\Football.DTOmodels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.DTOmodels\obj\Debug\Football.DTOmodels.csprojResolveAssemblyReference.cache

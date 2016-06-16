@@ -8,13 +8,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="~/Content/css/main.css" rel="stylesheet" />
   <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
   @Html.Sitecore().VisitorIdentification()
 </head>
   <body>
-    <h1>@Html.Sitecore().Field("title")</h1>
-    <div>
-      @Html.Sitecore().Placeholder("main")
-    </div>
+    <header>
+      @Html.Sitecore().Placeholder("header")
+    </header>
+      
+          @Html.Sitecore().Placeholder("body")
+      
   </body>
 </html>

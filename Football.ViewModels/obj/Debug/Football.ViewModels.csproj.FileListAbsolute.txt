@@ -2,3 +2,14 @@ C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\De
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Football.ViewModels.pdb
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\obj\Debug\Football.ViewModels.dll
 C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\obj\Debug\Football.ViewModels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\obj\Debug\Football.ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Castle.Core.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Football.DTOmodels.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Glass.Mapper.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Glass.Mapper.Sc.dll
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Football.DTOmodels.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Castle.Core.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Glass.Mapper.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Glass.Mapper.xml
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Glass.Mapper.Sc.pdb
+C:\Users\AntonRez\Documents\HomeTask\GitRepo\Football\Football.ViewModels\bin\Debug\Glass.Mapper.Sc.xml

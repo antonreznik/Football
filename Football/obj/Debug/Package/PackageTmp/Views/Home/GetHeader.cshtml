@@ -1,111 +1,62 @@
-﻿@model Football.ViewModels.HeaderViewModel
+﻿@*@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Football.ViewModels.HeaderViewModel>*@
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Football.DTOmodels.HeaderDTOmodel>
+@*@model Football.ViewModels.HeaderViewModel*@
 
-    <div class="header-wrap">
-        <div id="ctl00_topBanner" class="top-banner">
-
-            <div class="banner" style="">
-                <center><div id="adriver_top"><iframe width="728" height="90" scrolling="no" src="http://h.holder.com.ua/b?z2378&amp;b103822&amp;k1748122205&amp;d18362&amp;s011546" frameborder="0" vspace="0" hspace="0" marginwidth="0" marginheight="0"></iframe></div></center>
-
-            </div>
+<div class="header-wrap">
+    <div id="ctl00_topBanner" class="top-banner">
+        <div class="banner" style="">
+            <center><div id="adriver_top"><iframe width="728" height="90" scrolling="no" src="http://h.holder.com.ua/b?z2378&amp;b103822&amp;k1748122205&amp;d18362&amp;s011546" frameborder="0" vspace="0" hspace="0" marginwidth="0" marginheight="0"></iframe></div></center>
         </div>
-        <div class="header-top wrapper">
-            <div class="header-left">
-                <a href="@Model.HeaderLink"><img src="@Model.HeaderLogoSrc" alt="@Model.HeaderLogoAlt"></a>
-                <ul class="header-social" style="margin-left: 50px;">
-                    <li class="fb"><a href="https://www.facebook.com/football.ua" target="_blank"></a></li>
-                    <li class="vk"><a href="http://vk.com/official_footballua" target="_blank"></a></li>
-                    <li class="twitter"><a href="https://twitter.com/footballualive/" target="_blank"></a></li>
-                    <li class="rss"><a href="http://football.ua/rss2.ashx" target="_blank"></a></li>
-                </ul> <!--header-social-->
-                <div id="#parimatch-logo" style="display:inline-block; margin-left:50px;"><a href="@Model.HeaderBookmakerLink" target="_blank"><img src="@Model.HeaderBookmakerLogoSrc" alt="@Model.HeaderBookmakerLogoAlt" width="120" height="21"></a></div>
-            </div>
-            <div class="header-right">
-
-                <ul class="enter registerArea"><li><a href="#" id="enter-link">Войти</a></li>     <li><a href="#" id="reg-link">Регистрация</a></li></ul>
-
-                <script src="//football.ua/mod/Login/Login.js?v=20140930" type="text/javascript"></script>
-
-                <script type="text/javascript">
-Login.MinRequiredPasswordLength = 4;
-Login.AgreementLink = 'http://football.ua/profile/agreement/';
-Login.SiteName = 'football.ua';
-                </script>
-
-                <!--popups-->
-                <!--enter-popup-->
-                <!--registration-popup-->
-                <!--popups-->
-                <div class="header-search">
-                    <input type="text" id="searchInput" value="">
-                    <a href="#" class="search-button" id="searchInputButton" onclick="Main.Search(); return false;"></a>
-                </div> <!--search-->
-            </div>
-        </div> <!--wrapper-->
-        <nav class="header-nav">
-
-
-            <ul>
-
-                <li style="padding-left: 10px; padding-right: 18px;">
-
-                    <a href="http://football.ua/" style="" class="active ">Главная </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://football.ua/newsarc/" style="" class=" ">Новости </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://football.ua/scoreboard/" style="" class=" ">Матчи и турниры </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://football.ua/video/" style="" class=" ">Видео </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://football.ua/galleries/" style="" class=" ">Фотогалереи </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://football.ua/tvschedule/" style="" class=" ">Футбол на ТВ </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://football.ua/conferences/" style="" class=" ">Конференции </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://blog.isport.ua/football/all/" target="_blank" style="" class=" ">Блоги </a>
-
-                </li>
-
-                <li style="padding-left: 17px; padding-right: 18px;">
-
-                    <a href="http://isport.ua/fantasy/football/" target="_blank" style="" class=" ">Фентези </a>
-
-                </li>
-
-                <li>
-
-                    <a href="http://isport.ua/" target="_blank" style="" class=" isport-link hover"><span>&nbsp;</span></a>
-
-                </li>
-
-            </ul>
-        </nav>
     </div>
+    <div class="header-top wrapper">
+        <div class="header-left">
+            <a href="@Model.HeaderLink">@RenderImage(x => x.HeaderLogo)</a>
+            @*<img src="@Model.HeaderLogoSrc" alt="@Model.HeaderLogoAlt">*@
+            <ul class="header-social" style="margin-left: 50px;">
+                <li class="fb"><a href="https://www.facebook.com/football.ua" target="_blank"></a></li>
+                <li class="vk"><a href="http://vk.com/official_footballua" target="_blank"></a></li>
+                <li class="twitter"><a href="https://twitter.com/footballualive/" target="_blank"></a></li>
+                <li class="rss"><a href="http://football.ua/rss2.ashx" target="_blank"></a></li>
+            </ul> <!--header-social-->
+            <div id="#parimatch-logo" style="display:inline-block; margin-left:50px;">
+                <a href="@Model.HeaderBookmakerLink" target="_blank">
+                    @RenderImage(x => x.HeaderBookmakerLogo)
+                </a>
+            </div>
+            @*<img src="@Model.HeaderBookmakerLogoSrc" alt="@Model.HeaderBookmakerLogoAlt" width="120" height="21">*@
+        </div>
+        <div class="header-right">
+
+            <ul class="enter registerArea"><li><a href="#" id="enter-link">Войти</a></li>     <li><a href="#" id="reg-link">Регистрация</a></li></ul>
+
+            <script src="//football.ua/mod/Login/Login.js?v=20140930" type="text/javascript"></script>
+
+            <script type="text/javascript">
+                Login.MinRequiredPasswordLength = 4;
+                Login.AgreementLink = 'http://football.ua/profile/agreement/';
+                Login.SiteName = 'football.ua';
+            </script>
+
+            <!--popups-->
+            <!--enter-popup-->
+            <!--registration-popup-->
+            <!--popups-->
+            <div class="header-search">
+                <input type="text" id="searchInput" value="">
+                <a href="#" class="search-button" id="searchInputButton" onclick="Main.Search(); return false;"></a>
+            </div> <!--search-->
+        </div>
+    </div>
+
+    <!--wrapper-->
+    <nav class="header-nav">
+        <ul>
+            @foreach (var item in Model.MenuItems.HeaderItems)
+            {
+                <li style="padding-left: 10px; padding-right: 18px;">
+                    <a href="@item.Url" style="" class="active ">@Editable(item, x => x.Name)</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>

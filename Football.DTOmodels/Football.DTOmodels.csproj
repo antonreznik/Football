@@ -63,7 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HomePageDTOmodel.cs" />
+    <Compile Include="BaseItem.cs" />
+    <Compile Include="BodyContentDTOmodel.cs" />
+    <Compile Include="HeaderDTOmodel.cs" />
+    <Compile Include="HeaderMenuDTOmodel.cs" />
+    <Compile Include="LeftMenuDTOmodel.cs" />
+    <Compile Include="MenuItemDTOmodel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

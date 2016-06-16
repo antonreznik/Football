@@ -10,13 +10,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Config/Include/Glass.Mapper.Sc.CodeFirst.config.exclude">
-      <publishTime>06/01/2016 14:20:58</publishTime>
+      <publishTime>06/15/2016 09:00:50</publishTime>
     </File>
     <File Include="App_Config/Include/Glass.Mapper.Sc.config">
-      <publishTime>06/01/2016 14:20:58</publishTime>
+      <publishTime>06/15/2016 09:00:50</publishTime>
     </File>
     <File Include="App_Config/Include/Glass.Mapper.Sc.Start.config">
-      <publishTime>06/01/2016 14:23:57</publishTime>
+      <publishTime>06/15/2016 09:00:50</publishTime>
     </File>
     <File Include="App_Config/Include/Rainbow.config">
       <publishTime>05/31/2016 16:31:57</publishTime>
@@ -58,76 +58,76 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:31:59</publishTime>
     </File>
     <File Include="App_Config/Include/z.Glass.Mapper.Sc.ViewRender.config.exclude">
-      <publishTime>06/01/2016 14:20:58</publishTime>
+      <publishTime>06/15/2016 09:00:50</publishTime>
     </File>
     <File Include="bin/AutoMapper.dll">
-      <publishTime>01/06/2016 15:07:17</publishTime>
+      <publishTime>06/01/2016 15:07:17</publishTime>
     </File>
     <File Include="bin/Castle.Core.dll">
-      <publishTime>01/06/2016 11:36:21</publishTime>
+      <publishTime>06/01/2016 11:36:21</publishTime>
     </File>
     <File Include="bin/ComponentArt.Web.UI.dll">
-      <publishTime>02/03/2016 17:17:58</publishTime>
+      <publishTime>03/02/2016 17:17:58</publishTime>
     </File>
     <File Include="bin/Football.dll">
-      <publishTime>06/02/2016 11:07:06</publishTime>
+      <publishTime>06/16/2016 10:49:05</publishTime>
     </File>
     <File Include="bin/Football.DTOmodels.dll">
-      <publishTime>06/02/2016 11:07:01</publishTime>
+      <publishTime>06/16/2016 10:48:59</publishTime>
     </File>
     <File Include="bin/Football.DTOmodels.pdb">
-      <publishTime>06/02/2016 11:07:01</publishTime>
+      <publishTime>06/16/2016 10:48:59</publishTime>
     </File>
     <File Include="bin/Football.Interfaces.dll">
-      <publishTime>06/02/2016 11:07:01</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Football.Interfaces.pdb">
-      <publishTime>06/02/2016 11:07:01</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Football.pdb">
-      <publishTime>06/02/2016 11:07:06</publishTime>
+      <publishTime>06/16/2016 10:49:05</publishTime>
     </File>
     <File Include="bin/Football.ServiceMapper.dll">
-      <publishTime>06/02/2016 11:07:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Football.ServiceMapper.pdb">
-      <publishTime>06/02/2016 11:07:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Football.ViewModels.dll">
-      <publishTime>06/02/2016 11:07:01</publishTime>
+      <publishTime>06/16/2016 10:48:59</publishTime>
     </File>
     <File Include="bin/Football.ViewModels.pdb">
-      <publishTime>06/02/2016 11:07:01</publishTime>
+      <publishTime>06/16/2016 10:48:59</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.dll">
-      <publishTime>01/06/2016 11:36:23</publishTime>
+      <publishTime>08/06/2016 19:52:26</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.pdb">
-      <publishTime>01/06/2016 11:36:23</publishTime>
+      <publishTime>08/06/2016 19:52:26</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.Sc.dll">
-      <publishTime>01/06/2016 11:36:23</publishTime>
+      <publishTime>08/06/2016 19:52:26</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.Sc.Mvc.dll">
-      <publishTime>06/01/2016 11:36:23</publishTime>
+      <publishTime>08/06/2016 19:52:28</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.Sc.Mvc.pdb">
-      <publishTime>06/01/2016 11:36:23</publishTime>
+      <publishTime>08/06/2016 19:52:28</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.Sc.pdb">
-      <publishTime>01/06/2016 11:36:23</publishTime>
+      <publishTime>08/06/2016 19:52:26</publishTime>
     </File>
     <File Include="bin/HtmlAgilityPack.dll">
-      <publishTime>02/03/2016 17:19:46</publishTime>
+      <publishTime>03/02/2016 17:19:46</publishTime>
     </File>
     <File Include="bin/ITHit.WebDAV.Server.dll">
-      <publishTime>02/03/2016 17:19:46</publishTime>
+      <publishTime>03/02/2016 17:19:46</publishTime>
     </File>
     <File Include="bin/Kamsar.WebConsole.dll">
       <publishTime>05/31/2016 16:31:54</publishTime>
     </File>
     <File Include="bin/Lucene.Net.dll">
-      <publishTime>02/03/2016 17:19:54</publishTime>
+      <publishTime>03/02/2016 17:19:54</publishTime>
     </File>
     <File Include="bin/MicroCHAP.dll">
       <publishTime>05/31/2016 16:31:55</publishTime>
@@ -139,13 +139,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:01:36</publishTime>
     </File>
     <File Include="bin/Mvp.Xml.dll">
-      <publishTime>02/03/2016 17:19:56</publishTime>
+      <publishTime>03/02/2016 17:19:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>02/03/2016 17:19:56</publishTime>
+      <publishTime>03/02/2016 17:19:56</publishTime>
     </File>
     <File Include="bin/RadEditor.Net2.dll">
-      <publishTime>02/03/2016 17:19:58</publishTime>
+      <publishTime>03/02/2016 17:19:58</publishTime>
     </File>
     <File Include="bin/Rainbow.dll">
       <publishTime>05/31/2016 16:31:56</publishTime>
@@ -193,22 +193,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:01:37</publishTime>
     </File>
     <File Include="bin/Sitecore.Logging.Client.dll">
-      <publishTime>02/03/2016 17:20:24</publishTime>
+      <publishTime>03/02/2016 17:20:24</publishTime>
     </File>
     <File Include="bin/Sitecore.Logging.dll">
-      <publishTime>02/03/2016 17:20:24</publishTime>
+      <publishTime>03/02/2016 17:20:24</publishTime>
     </File>
     <File Include="bin/Sitecore.NVelocity.dll">
-      <publishTime>02/03/2016 17:20:30</publishTime>
+      <publishTime>03/02/2016 17:20:30</publishTime>
     </File>
     <File Include="bin/Sitecore.Zip.dll">
-      <publishTime>02/03/2016 17:20:56</publishTime>
+      <publishTime>03/02/2016 17:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>05/31/2016 16:01:36</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>05/31/2016 16:01:37</publishTime>
+      <publishTime>01/26/2016 16:11:54</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
       <publishTime>05/31/2016 16:01:36</publishTime>
@@ -223,34 +223,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/31/2016 16:01:36</publishTime>
     </File>
     <File Include="bin/Telerik.Web.UI.dll">
-      <publishTime>02/03/2016 17:21:12</publishTime>
+      <publishTime>03/02/2016 17:21:12</publishTime>
     </File>
     <File Include="bin/Unicorn.dll">
       <publishTime>05/31/2016 16:31:58</publishTime>
     </File>
     <File Include="Content/css/main.css">
-      <publishTime>06/02/2016 10:31:54</publishTime>
+      <publishTime>06/16/2016 10:46:47</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>05/31/2016 16:03:01</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>06/01/2016 14:20:58</publishTime>
+      <publishTime>06/15/2016 09:05:32</publishTime>
     </File>
     <File Include="Views/Home/GetHeader.cshtml">
-      <publishTime>06/02/2016 11:06:51</publishTime>
+      <publishTime>06/16/2016 10:14:09</publishTime>
+    </File>
+    <File Include="Views/Home/GetPageContent.cshtml">
+      <publishTime>06/16/2016 10:37:04</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>02/06/2016 10:20:38</publishTime>
     </File>
     <File Include="Views/MainLayout.cshtml">
-      <publishTime>06/01/2016 11:16:53</publishTime>
+      <publishTime>03/06/2016 17:06:10</publishTime>
     </File>
     <File Include="Views/web.config">
-      <publishTime>05/31/2016 16:05:59</publishTime>
+      <publishTime>06/15/2016 09:04:29</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/02/2016 11:07:23</publishTime>
+      <publishTime>06/16/2016 10:49:18</publishTime>
     </File>
   </ItemGroup>
 </Project>
